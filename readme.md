@@ -9,6 +9,8 @@ This Looker custom visualization allows you to create engaging pictorial charts,
 * Format data labels with units (numbers, percentages, thousands, millions)
 * Control stacking type (normal, percent)
 
+![](/Users/aragosa/IdeaProjects/pictoral_viz/viz_sample.png)
+
 ## Installation
 
 1. **Clone or download this repository.**
