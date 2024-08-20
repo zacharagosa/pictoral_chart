@@ -55,11 +55,6 @@ module.exports = {
         ]
     },
     externals: {
-        highcharts: "Highcharts"
     },
-    plugins: [
-        new webpack.ProvidePlugin({
-            Highcharts: 'highcharts/highstock',
-        })
-    ]
+    plugins: []
 };

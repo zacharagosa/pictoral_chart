@@ -1,6 +1,9 @@
-// const Highcharts = require('highcharts/highstock');
-// require('highcharts/modules/exporting')(Highcharts); // CommonJS import for the exporting module
-// require('highcharts/modules/pictorial')(Highcharts); // CommonJS import for the pictorial module
+import Highcharts from 'highcharts/highstock';
+import Exporting from 'highcharts/modules/exporting';
+import Pictorial from 'highcharts/modules/pictorial';
+
+Exporting(Highcharts);
+Pictorial(Highcharts);
 
 looker.plugins.visualizations.add({
     id: "pictorial_person_chart",
